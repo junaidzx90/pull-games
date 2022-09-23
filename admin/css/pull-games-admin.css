@@ -1,0 +1,59 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .pullrow {
+    display: flex;
+}
+.pullheading {
+    width: 15%;
+}
+.pullfield {
+    width: 25%;
+}
+.pullrow {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pullfield form {
+    display: flex;
+    gap: 5px;
+}
+table#result_table {
+    border: none;
+    border-collapse: collapse;
+}
+table#result_table thead {
+    background: #2271b1;
+    color: #fff;
+}
+table#result_table tr th, table#result_table tr td {
+    padding: 8px;
+}
+table#result_table tbody tr:nth-child(even) {
+    background: #e5e5e5;
+}
+table#result_table tbody tr td:nth-child(2) {
+    max-width: 300px;
+}
+button#import_pullgames {
+    height: fit-content;
+}
+.import_button {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    align-items: center;
+}
+.import_button #loader-1 {
+    height: 30px;
+    display: none;
+}
+textarea#search_query {
+    width: 300px;
+    min-height: 150px;
+    resize: none;
+}
+input[name="search_query_action"] {
+    height: fit-content;
+}
